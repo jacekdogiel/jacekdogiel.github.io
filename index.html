@@ -6,12 +6,12 @@
     <title>Jacek Dogiel - Senior iOS Developer</title>
     <meta
       name="description"
-      content="Senior iOS Developer focused on Swift, SwiftUI, UIKit, mobile SDKs, modular architecture, testing, CI/CD and release processes."
+      content="Senior iOS Developer focused on Swift, SwiftUI, UIKit, mobile SDKs, modular architecture, AI agents, testing, CI/CD and release processes."
     >
     <meta property="og:title" content="Jacek Dogiel - Senior iOS Developer">
     <meta
       property="og:description"
-      content="Swift, SwiftUI and UIKit developer building large-scale iOS apps, mobile SDKs and modular architecture."
+      content="Swift, SwiftUI and UIKit developer building large-scale iOS apps, mobile SDKs and modular architecture with AI-assisted engineering workflows."
     >
     <meta property="og:type" content="website">
     <meta property="og:image" content="assets/og-image.svg">
@@ -19,6 +19,7 @@
     <meta name="theme-color" content="#f7f8fb" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#101418" media="(prefers-color-scheme: dark)">
     <link rel="icon" href="favicon.png" type="image/png">
+    <script>document.documentElement.classList.add("js");</script>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -38,13 +39,12 @@
     </header>
 
     <main id="main">
-      <section class="hero" id="top" aria-labelledby="hero-title">
+      <section class="hero reveal" id="top" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow">Senior iOS Developer</p>
           <h1 id="hero-title">Jacek Dogiel</h1>
           <p class="lead">
-            Swift, SwiftUI and UIKit developer building large-scale iOS apps,
-            mobile SDKs and modular architecture.
+            Senior iOS Developer building scalable iOS apps, SDKs and cross-platform mobile integrations with AI-assisted engineering workflows.
           </p>
           <div class="actions" aria-label="Primary links">
             <a class="button primary" href="assets/Jacek_Dogiel_Senior_iOS_Engineer_CV.pdf" download>Download CV</a>
@@ -54,8 +54,16 @@
           </div>
         </div>
 
-        <aside class="snapshot" aria-label="Profile snapshot">
-          <img class="profile-photo" src="assets/profile.jpg" alt="Jacek Dogiel" width="144" height="144">
+        <aside class="snapshot hero-device" aria-label="Profile snapshot">
+          <div class="profile-ring">
+            <img class="profile-photo" src="assets/profile.jpg" alt="Jacek Dogiel" width="144" height="144">
+          </div>
+          <p class="badge">Senior iOS Developer</p>
+          <div class="code-window" aria-label="Swift focus areas">
+            <span>let focus = ["Swift", "SwiftUI", "UIKit"]</span>
+            <span>use(.aiAgents, for: .engineering)</span>
+            <span>build(.apps, .sdk, .architecture)</span>
+          </div>
           <dl>
             <div>
               <dt>Experience</dt>
@@ -73,60 +81,69 @@
         </aside>
       </section>
 
-      <section class="section" id="about" aria-labelledby="about-title">
+      <section class="section reveal" id="about" aria-labelledby="about-title">
         <div class="section-heading">
           <p class="eyebrow">About</p>
           <h2 id="about-title">Practical iOS engineering for production apps.</h2>
         </div>
-        <p class="section-copy">
-          Senior iOS Engineer and Lead iOS Developer with 7 years of experience building
-          large-scale production iOS apps and mobile SDKs. Strong in Swift, SwiftUI,
-          UIKit, MVVM, modular architecture, Swift Concurrency, testing, CI/CD and
-          release processes, with experience in banking apps used by millions of users
-          and cross-platform SDK integrations.
-        </p>
+        <div class="about-panel">
+          <p class="section-copy">
+            Senior iOS Engineer and Lead iOS Developer with 7 years of experience building
+            large-scale production iOS apps and mobile SDKs. Strong in Swift, SwiftUI,
+            UIKit, MVVM, modular architecture, Swift Concurrency, testing, CI/CD and
+            release processes, with experience in banking apps used by millions of users
+            and cross-platform SDK integrations. Uses AI agents as part of the engineering
+            workflow.
+          </p>
+          <div class="stat-grid" aria-label="Experience highlights">
+            <div><strong>7 years</strong><span>iOS experience</span></div>
+            <div><strong>SDKs</strong><span>Public APIs and integrations</span></div>
+            <div><strong>Fintech</strong><span>Banking apps used by millions</span></div>
+            <div><strong>AI agents</strong><span>Part of engineering workflow</span></div>
+          </div>
+        </div>
       </section>
 
-      <section class="section" id="skills" aria-labelledby="skills-title">
+      <section class="section reveal" id="skills" aria-labelledby="skills-title">
         <div class="section-heading">
           <p class="eyebrow">Skills</p>
           <h2 id="skills-title">Core toolkit</h2>
         </div>
         <div class="grid skills-grid">
-          <article class="card">
+          <article class="card skill-card">
             <h3>iOS</h3>
-            <p>Swift, SwiftUI, UIKit, Foundation, iOS SDK, Xcode, Objective-C, Combine, Swift Concurrency.</p>
+            <p><span>Swift</span><span>SwiftUI</span><span>UIKit</span><span>Foundation</span><span>iOS SDK</span><span>Xcode</span><span>Objective-C</span><span>Combine</span><span>Swift Concurrency</span></p>
           </article>
-          <article class="card">
+          <article class="card skill-card">
             <h3>Architecture</h3>
-            <p>Modular architecture, MVVM, TCA, VIPER, Clean Architecture principles, scalable app structures, code reviews.</p>
+            <p><span>Modular architecture</span><span>MVVM</span><span>TCA</span><span>VIPER</span><span>Clean Architecture principles</span><span>Code reviews</span></p>
           </article>
-          <article class="card">
+          <article class="card skill-card">
             <h3>SDK and integrations</h3>
-            <p>Public SDK APIs, versioning, backward compatibility, WebView rendering, JavaScript bridges, Flutter and React Native bridges.</p>
+            <p><span>Public SDK APIs</span><span>Versioning</span><span>Backward compatibility</span><span>WebView rendering</span><span>JavaScript bridges</span><span>Flutter</span><span>React Native</span></p>
           </article>
-          <article class="card">
+          <article class="card skill-card">
             <h3>Quality</h3>
-            <p>XCTest, Swift Testing, UI tests, Quick/Nimble, Appium, Cucumber, accessibility, refactoring, technical debt reduction.</p>
+            <p><span>XCTest</span><span>Swift Testing</span><span>UI tests</span><span>Snapshot tests</span><span>Quick/Nimble</span><span>Accessibility</span><span>Refactoring</span></p>
           </article>
-          <article class="card">
+          <article class="card skill-card">
             <h3>CI/CD and release</h3>
-            <p>Fastlane, Jenkins, Bitrise, CircleCI, TestFlight, App Store, build and deployment scripts.</p>
+            <p><span>Fastlane</span><span>Jenkins</span><span>Bitrise</span><span>CircleCI</span><span>TestFlight</span><span>App Store</span><span>Deployment scripts</span></p>
           </article>
-          <article class="card">
+          <article class="card skill-card">
             <h3>Tools</h3>
-            <p>GitHub, Git, Bitbucket, Proxyman, Postman, REST APIs, WebSockets, Figma, Jira, Scrum, BrowserStack.</p>
+            <p><span>AI agents</span><span>GitHub</span><span>Git</span><span>Bitbucket</span><span>Proxyman</span><span>Postman</span><span>REST APIs</span><span>WebSockets</span><span>Figma</span><span>Jira</span><span>Scrum</span><span>BrowserStack</span></p>
           </article>
         </div>
       </section>
 
-      <section class="section" id="experience" aria-labelledby="experience-title">
+      <section class="section reveal" id="experience" aria-labelledby="experience-title">
         <div class="section-heading">
           <p class="eyebrow">Experience</p>
           <h2 id="experience-title">Selected roles</h2>
         </div>
         <div class="stack">
-          <article class="card role-card">
+          <article class="card role-card featured">
             <div class="role-head">
               <div>
                 <h3>Equiqo</h3>
@@ -135,7 +152,7 @@
               <span>Aug 2025 - Present</span>
             </div>
             <p>Cross-platform mobile SDK for e-commerce applications, with iOS as primary platform.</p>
-            <p class="tech">Swift, WebView, JavaScript bridges, analytics, Android, Flutter, React Native</p>
+            <p class="tech"><span>Swift</span><span>WebView</span><span>JavaScript bridges</span><span>Analytics</span><span>Android</span><span>Flutter</span><span>React Native</span></p>
             <ul>
               <li>Lead architecture and delivery of cross-platform mobile SDK work.</li>
               <li>Own public SDK APIs, modular SDK structure, versioning, backward compatibility and documentation.</li>
@@ -153,7 +170,7 @@
               <span>Jan 2024 - Jul 2025</span>
             </div>
             <p>IKO mobile banking app by PKO Bank Polski, used by millions of customers in Poland.</p>
-            <p class="tech">Swift, SwiftUI, UIKit, VIPER, TCA, Tuist, modular architecture, XCTest, UI testing</p>
+            <p class="tech"><span>Swift</span><span>SwiftUI</span><span>UIKit</span><span>VIPER</span><span>TCA</span><span>Tuist</span><span>Modular architecture</span><span>XCTest</span><span>UI testing</span><span>Snapshot tests</span></p>
             <ul>
               <li>Designed and implemented modular feature architecture for large-scale banking flows.</li>
               <li>Built UIKit and SwiftUI features focused on performance, accessibility and reliability.</li>
@@ -171,7 +188,7 @@
               <span>Apr 2023 - Oct 2023</span>
             </div>
             <p>United Rentals iOS app for worksite equipment management and rental.</p>
-            <p class="tech">Swift, SwiftUI, Combine, REST, XCTest, Bitrise, Fastlane, TestFlight</p>
+            <p class="tech"><span>Swift</span><span>SwiftUI</span><span>Combine</span><span>REST</span><span>XCTest</span><span>Bitrise</span><span>Fastlane</span><span>TestFlight</span></p>
             <ul>
               <li>Delivered architecture and Swift/SwiftUI/Combine features.</li>
               <li>Integrated REST APIs and supported CI/CD with Bitrise and Fastlane.</li>
@@ -188,7 +205,7 @@
               <span>Aug 2019 - May 2022</span>
             </div>
             <p>Handbid charity auctions bidding app for iPhone and iPad with real-time auction flows.</p>
-            <p class="tech">Swift, Objective-C, REST, WebSocket, Apple Pay, Bluetooth, XCTest, Appium, Jenkins</p>
+            <p class="tech"><span>Swift</span><span>Objective-C</span><span>REST</span><span>WebSocket</span><span>Apple Pay</span><span>Bluetooth</span><span>XCTest</span><span>Appium</span><span>Cucumber</span><span>Jenkins</span></p>
             <ul>
               <li>Led iOS development and coached within the iOS department.</li>
               <li>Migrated Objective-C codebase toward Swift while delivering new product features.</li>
@@ -199,7 +216,7 @@
         </div>
       </section>
 
-      <section class="section product-section" id="products" aria-labelledby="products-title">
+      <section class="section product-section reveal" id="products" aria-labelledby="products-title">
         <div class="section-heading">
           <p class="eyebrow">Selected Work</p>
           <h2 id="products-title">Selected apps and SDK work</h2>
@@ -232,13 +249,14 @@
         </div>
       </section>
 
-      <section class="section" id="case-studies" aria-labelledby="case-title">
+      <section class="section reveal" id="case-studies" aria-labelledby="case-title">
         <div class="section-heading">
           <p class="eyebrow">Case studies</p>
           <h2 id="case-title">Project highlights</h2>
         </div>
         <div class="grid case-grid">
           <article class="card case-card">
+            <span class="label">SDK</span>
             <h3>Native mobile SDK development</h3>
             <dl>
               <div>
@@ -261,6 +279,7 @@
           </article>
 
           <article class="card case-card">
+            <span class="label">Banking app</span>
             <h3>Banking app modular architecture</h3>
             <dl>
               <div>
@@ -273,7 +292,7 @@
               </div>
               <div>
                 <dt>Technology</dt>
-                <dd>Swift, SwiftUI, UIKit, VIPER, TCA, Tuist, modular architecture, XCTest, UI testing.</dd>
+                <dd>Swift, SwiftUI, UIKit, VIPER, TCA, Tuist, modular architecture, XCTest, UI testing, snapshot tests.</dd>
               </div>
               <div>
                 <dt>Value</dt>
@@ -283,6 +302,7 @@
           </article>
 
           <article class="card case-card">
+            <span class="label">Real-time app</span>
             <h3>Real-time auction app modernization</h3>
             <dl>
               <div>
@@ -306,7 +326,7 @@
         </div>
       </section>
 
-      <section class="section credentials" aria-labelledby="credentials-title">
+      <section class="section credentials reveal" aria-labelledby="credentials-title">
         <div class="section-heading">
           <p class="eyebrow">Credentials</p>
           <h2 id="credentials-title">Education and certification</h2>
@@ -326,13 +346,15 @@
         </a>
       </section>
 
-      <section class="contact" id="contact" aria-labelledby="contact-title">
+      <section class="contact reveal" id="contact" aria-labelledby="contact-title">
         <p class="eyebrow">Contact</p>
         <h2 id="contact-title">Available for senior iOS roles and SDK work.</h2>
+        <p class="section-copy">Recruiting for a product team, SDK platform or mobile architecture role? Let’s talk.</p>
         <div class="actions" aria-label="Contact links">
           <a class="button primary" href="mailto:jacek.dogiel@gmail.com">jacek.dogiel@gmail.com</a>
           <a class="button" href="https://www.linkedin.com/in/jacek-dogiel" target="_blank" rel="noreferrer">LinkedIn</a>
           <a class="button" href="https://github.com/jacekdogiel" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button" href="assets/Jacek_Dogiel_Senior_iOS_Engineer_CV.pdf" download>Download CV</a>
         </div>
       </section>
     </main>
@@ -340,5 +362,22 @@
     <footer>
       <p>Jacek Dogiel - Senior iOS Developer</p>
     </footer>
+    <script>
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (!reducedMotion && "IntersectionObserver" in window) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12 });
+
+        document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+      } else {
+        document.querySelectorAll(".reveal").forEach((el) => el.classList.add("is-visible"));
+      }
+    </script>
   </body>
 </html>
